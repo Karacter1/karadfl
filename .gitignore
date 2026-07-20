@@ -27,10 +27,17 @@ models/
 *.jpg
 *.jpeg
 
-# Ignore the vendored app subtree and its local downloads
-/deep-live-cam-lite/.venv/
-/deep-live-cam-lite/venv/
-/deep-live-cam-lite/env/
-/deep-live-cam-lite/models/
-/deep-live-cam-lite/.pytest_cache/
-/deep-live-cam-lite/__pycache__/
+# Local app runtime artifacts
+workflow/
+gfpgan/
+faceswap/
+tf_env/
+temp/
+.tmp/
+
+# Local UI / setup files
+switch_states.json
+install.bat
+.claude/
+*.bat
+
