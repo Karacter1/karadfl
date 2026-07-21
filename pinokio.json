@@ -1,0 +1,7 @@
+{
+  "name": "Deep Live Cam Lite",
+  "description": "Terminal launcher for the Deep Live Cam Lite desktop app",
+  "run": "bash pinokio_run.sh",
+  "icon": "https://raw.githubusercontent.com/Karacter1/deep-live-cam-lite/main/media/deepwarebench.gif",
+  "category": "AI"
+}
