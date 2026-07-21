@@ -98,6 +98,15 @@ If that works, the project entrypoint is ready.
 python run.py
 ```
 
+### Pinokio / terminal build runner
+If you want to launch the project from a terminal-style build environment such as Pinokio, use the provided launcher script:
+
+```bash
+bash pinokio_run.sh
+```
+
+Set `INSTALL_HF=1` and provide `HF_TOKEN` if you want the Hugging Face runtime stack installed during startup.
+
 ## 9. What to expect
 
 ### Localhost URL / endpoint
